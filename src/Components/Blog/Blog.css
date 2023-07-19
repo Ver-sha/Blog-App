@@ -1,0 +1,50 @@
+.post{
+  border: 1px solid #cccccc1a;
+  box-shadow: 0px 3px 7px 0px;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px 10px;
+  margin: 50px auto;
+  border-radius: 12px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+}
+.blog-wrapper .input{
+  margin: 20px 0;
+}
+
+.blog{
+  width: 100%;
+  max-width: 370px;
+  text-decoration: none;
+}
+.blogImg{
+    height: auto;
+    max-height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #43799b;
+    margin: 10px 15px;
+}
+.blog-link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dlt-btn {
+  font-size: 30px;
+  width: 55px;
+} 
+.input{
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 250px;
+}
